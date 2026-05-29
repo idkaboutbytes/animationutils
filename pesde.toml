@@ -1,0 +1,28 @@
+name = "idkaboutbytes/animationutils"
+version = "1.0.0"
+description = "Animationutils package for Roblox."
+license = "MIT"
+authors = ["idkaboutbytes"]
+repository = "https://github.com/idkaboutbytes/animationutils"
+includes = [
+    "pesde.toml",
+    "README.md",
+    "CHANGELOG.md",
+    "default.project.json",
+    "src/**/*.luau",
+]
+
+[target]
+environment = "roblox"
+lib = "src"
+build_files = ["src"]
+
+[dependencies]
+Loader = { repo = "idkaboutbytes/loader", rev = "v1.2.1" }
+Brio = { repo = "idkaboutbytes/brio", rev = "v1.1.0" }
+EnumUtils = { repo = "idkaboutbytes/enumutils", rev = "v1.0.0" }
+Maid = { repo = "idkaboutbytes/maid", rev = "v1.1.0" }
+Promise = { repo = "idkaboutbytes/promise", rev = "v2.1.1" }
+PromiseMaidUtils = { repo = "idkaboutbytes/promisemaidutils", rev = "v1.0.0" }
+RbxAssetUtils = { repo = "idkaboutbytes/rbxassetutils", rev = "v1.0.0" }
+Rx = { repo = "idkaboutbytes/rx", rev = "v1.0.1" }
